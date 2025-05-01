@@ -1,0 +1,21 @@
+train: 
+  - /content/drive/MyDrive/school project/part 1.v1i.yolov8/train/images
+  - /content/drive/MyDrive/school project/part 2.v1i.yolov8/train/images
+  - /content/drive/MyDrive/school project/part 3.v1i.yolov8/train/images
+  - /content/drive/MyDrive/school project/part 4.v1i.yolov8/train/images
+val: 
+  - /content/drive/MyDrive/school project/part 1.v1i.yolov8/valid/images
+  - /content/drive/MyDrive/school project/part 2.v1i.yolov8/valid/images
+  - /content/drive/MyDrive/school project/part 3.v1i.yolov8/valid/images
+  - /content/drive/MyDrive/school project/part 4.v1i.yolov8/valid/images
+
+
+nc: 7
+names: ['Boot', 'Face Protector', 'Gloves', 'Helmet', 'Normal-Glasses', 'Safety-Glasses', 'Vest']
+
+roboflow:
+  workspace: track-safe-part-4
+  project: part-4-7eaol
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/track-safe-part-4/part-4-7eaol/dataset/1
